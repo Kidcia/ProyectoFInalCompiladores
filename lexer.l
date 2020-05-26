@@ -78,19 +78,9 @@ lista_p ","{expresion}
 {lista_var} {printf("Encontre un lista_var: %s \n", yytext);}
 {tipo_arreglo} {printf("Encontre un tipo_arreglo: %s \n", yytext);}
 {tipo} {printf("Encontre un tipo: %s \n", yytext);}
-{declaraciones}{printf("Encontre un(as) declaracioen(es): %s \n", yytext);}
 
 
 [ \t\n\r]+ {/*ignorar espacios en blanco*/}
 "/*"{com}*"*/" {/*ignorar comentarios*/}
 .   { printf("Error Lexico: %s\n", yytext);}
-
-
-
-
-
-
-
-
-
 %%
