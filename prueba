@@ -1,0 +1,55 @@
+ 
+/*base*/
+entrealdrealcarsin
+ent
+real
+dreal
+car
+sin
+/*param*/
+()()()()()()()
+()()()()()
+()()()
+()()
+()
+/*tipo_arg*/
+ent ()()() real ()() dreal () car ()() sin ()()()
+ent ()()()
+real ()()
+dreal ()
+car ()()
+sin ()()()
+ent ()()()real ()()dreal ()car ()()sin ()()()
+ent ()()()
+real ()()
+dreal ()
+car ()()
+sin ()()()
+/*arg*/
+ent ()()() a real ()() b dreal () c car ()() d sin ()()() e
+ent ()()() a
+real ()() b
+dreal () c
+car ()() d
+sin ()()() e
+ent ()()()a real ()()b dreal ()c car ()()d sin ()()()e
+ent ()()()a
+real ()()b
+dreal ()c
+car ()()d
+sin ()()()e
+/*list_arg*/
+ent z,ent ()()()a,real ()()b,dreal ()c,car ()()d,sin ()()()e
+ent z,ent ()()() a,real ()() b,dreal () c,car ()() d,sin ()()() e
+/*list_var*/
+z,a,b,c,d,e
+/*tipo_arreglo*/
+(1)(2)(3)
+(1)(2)
+(2344)
+/*tipo*/
+ent (2)
+real (2)(3)
+dreal (2)(4)
+car (2)(3)
+sin (2)(4)
